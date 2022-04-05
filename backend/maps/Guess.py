@@ -26,7 +26,7 @@ def UserGuess(num):
 
         # print(num)
 
-        path = 'backend\\game\\num.txt'
+        path = os.path.abspath('backend\\game\\num.txt')
 
         with open(path) as f:
             lines = f.read()

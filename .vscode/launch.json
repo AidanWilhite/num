@@ -13,7 +13,7 @@
         "FLASK_APP": "backend/app.py",
         "FLASK_ENV": "development"
       },
-      "args": ["run", "--no-debugger"],
+      "args": ["run", "--no-debugger", "-h 192.168.86.31"], // INSERT IP ADDRESS HERE
       "jinja": true,
       "justMyCode": true
     }
